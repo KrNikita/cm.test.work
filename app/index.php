@@ -1,4 +1,24 @@
 <?php
+
+class Foo{
+
+    public function __construct()
+    {
+
+    }
+
+    public function bar(){
+
+    }
+
+}
+
+$f = new Foo();
+$f->bar();
+
+echo Foo::class;
+
+return;
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
