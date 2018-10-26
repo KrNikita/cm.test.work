@@ -46,6 +46,10 @@ class Database
         return $ret;
     }
 
+    /**
+     * @param $q
+     * @return null
+     */
     public function Query($q){
         //Lazy connection initialization
         if($this->connection == null){
